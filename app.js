@@ -13,21 +13,16 @@ tl.from("h1", {
  });
 
  tl.from(".calculator", { 
-   y: -58, 
-   duration: 2, 
-   opacity:0,
+   scale:0,
+   duration:2,
+   rotate:360,
 
 });
 tl.from("button", { 
-    y: -58, 
-    duration: 2, 
-    opacity:0,
+   opacity:0,
+   scale:.7,
+   duration:3,
 
  });
-
-//  tl.from("h1", { 
-//     y: -18, 
-//     opacity:0,
-//  });
 
  console.log("ok")
